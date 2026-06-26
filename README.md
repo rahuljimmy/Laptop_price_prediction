@@ -117,9 +117,6 @@ Aspiring Data Scientist
 
 ---
 
-## ⭐ Support
-
-If you like this project, please consider giving it a star ⭐ on GitHub.
 
 
 
