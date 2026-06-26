@@ -55,7 +55,7 @@ The following steps were performed in this project:
 The following models were tested:
 
 - Linear Regression
-- K-Nearest Neighbours Regressor
+- K-Nearest Neighbors Regressor
 - Support Vector Regressor
 - Decision Tree Regressor
 - Random Forest Regressor
@@ -75,75 +75,27 @@ Mean Absolute Error (MAE) = 8750 INR
 - Python
 - Pandas
 - NumPy
-- Matplotlib
-- Seaborn
+- Matplotlib & Seaborn
 - Scikit-learn
 - Streamlit
-- Pickle
-- Git
-- GitHub
+- Git & GitHub
 
 ---
 
-## 📂 Project Structure
+## 🌐 Deployment
+The final model is deployed using Streamlit Community Cloud.
 
-```
-Laptop-Price-Prediction
-│
-├── data
-│   └── laptop_data.csv
-│
-├── notebooks
-│   └── Laptop_Price_Prediction.ipynb
-│
-├── model
-│   └── model.pkl
-│
-├── app.py
-│
-├── requirements.txt
-│
-└── README.md
-```
+🔗 Live App: [https://laptop-price-prediction-1.streamlit.app]  
+💻 GitHub Repository: [https://github.com/rahuljimmy]
 
 ---
 
-## ⚙️ How to Run This Project
+## 🚀 Key Learnings
 
-### Step 1: Clone the repository
-
-```
-git clone https://github.com/rahuljimmy/Laptop_price_prediction.git
-```
-
-### Step 2: Navigate to the project directory
-
-```
-cd Laptop-Price-Prediction
-```
-
-### Step 3: Install the required libraries
-
-```
-pip install -r requirements.txt
-```
-
-### Step 4: Run the Streamlit application
-
-```
-streamlit run app.py
-```
-
----
-
-## 🚀 Features of This Project
-
-- End-to-end Machine Learning project
-- Real-world dataset
-- Multiple model training and comparison
-- Best model selection
-- Model deployment using Streamlit
-- User-friendly interface for predictions
+- Implemented complete ML workflow from raw data to deployment
+- Understood regression metrics deeply
+- Learned model comparison and hyperparameter tuning
+- Gained hands-on experience in deploying ML applications
 
 ---
 
