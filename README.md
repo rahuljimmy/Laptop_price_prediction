@@ -86,7 +86,6 @@ Mean Absolute Error (MAE) = 8750 INR
 The final model is deployed using Streamlit Community Cloud.
 
 🔗 Live App: [https://laptop-price-prediction-1.streamlit.app]  
-💻 GitHub Repository: [https://github.com/rahuljimmy]
 
 ---
 
