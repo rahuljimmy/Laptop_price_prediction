@@ -15,7 +15,7 @@ company = st.selectbox('Brand',df['Company'].unique())
 type = st.selectbox('Type',df['TypeName'].unique())
 
 # Ram
-ram = st.selectbox('RAM(in GB)',[4,6,8,12,16,24,32,64])
+ram = st.selectbox('RAM (in GB)',[4,6,8,12,16,24,32,64])
 
 # weight
 weight = st.slider('Weight of the Laptop', 0.5, 4.0, 2.0)
@@ -36,9 +36,9 @@ resolution = st.selectbox('Screen Resolution',['1920x1080','1366x768','1600x900'
 #cpu
 cpu = st.selectbox('CPU',df['Cpu brand'].unique())
 
-hdd = st.selectbox('HDD(in GB)',[0,128,256,512,1024,2048])
+hdd = st.selectbox('HDD (in GB)',[0,128,256,512,1024,2048])
 
-ssd = st.selectbox('SSD(in GB)',[0,128,256,512,1024,2048])
+ssd = st.selectbox('SSD (in GB)',[0,128,256,512,1024,2048])
 
 gpu = st.selectbox('GPU',df['Gpu brand'].unique())
 
@@ -63,4 +63,4 @@ if st.button('Predict Laptop Price'):
     query = np.array([company,type,ram,weight,touchscreen,ips,ppi,cpu,hdd,ssd,gpu,os])
 
     query = query.reshape(1,12)
-    st.title("The estimated price is " + str(int(np.exp(pipe.predict(query)[0]))))
+    st.title("The estimated price is ₹ " + str(int(np.exp(pipe.predict(query)[0]))))
